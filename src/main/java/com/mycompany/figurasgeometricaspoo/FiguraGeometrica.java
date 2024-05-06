@@ -13,7 +13,7 @@ class Circulo extends FiguraGeometrica {
         this.radio = radio;
     }
 
-    @Override
+
     double calcularArea() {
         return Math.PI * radio * radio;
     }
@@ -29,7 +29,7 @@ class Rectangulo extends FiguraGeometrica {
         this.lado2 = lado2;
     }
 
-    @Override
+   
     double calcularArea() {
         return lado1 * lado2;
     }
