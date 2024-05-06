@@ -13,5 +13,9 @@ class Rectangulo extends FigurasGeometrica {
     double calcularArea() {
         return lado1 * lado2;
     }
+    double perimetroRect (){
+    return 2 * (lado1 + lado2);
+    
+    }
 }
 
